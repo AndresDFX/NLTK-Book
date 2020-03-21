@@ -23,8 +23,8 @@ def lexical_diversity (text):
 def percentage(count, total):
     return  100*count/total
 
-lexical_diversity(texto)     #Calculamos una medida de la riqueza léxica del texto. El ejemplo siguiente nos muestra que el número de palabras distintas
-percentaje(texto.count('a'),len(texto)) # Podemos contar con qué frecuencia aparece una palabra en un texto y calcular qué porcentaje del texto está ocupado por una palabra específica
+lexical_diversity(texto)                #Calculamos una medida de la riqueza léxica del texto. El ejemplo siguiente nos muestra que el número de palabras distintas
+percentage(texto.count('a'),len(texto)) # Podemos contar con qué frecuencia aparece una palabra en un texto y calcular qué porcentaje del texto está ocupado por una palabra específica
 	
 
 
